@@ -1,0 +1,17 @@
+//
+// Created by MarvinYang on 2019/3/7.
+//
+
+#ifndef PROJECTANDROIDSTUDIO_JNIHELPER_H
+#define PROJECTANDROIDSTUDIO_JNIHELPER_H
+
+
+class JNIHelper {
+
+public:
+
+
+};
+
+
+#endif //PROJECTANDROIDSTUDIO_JNIHELPER_H

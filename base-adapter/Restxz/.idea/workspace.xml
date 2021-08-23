@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afa5c591-5801-42ee-8da7-81b8db5e3512" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/layout/smart_handy_logo_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/layout/smart_handy_logo_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/txznet/comm/ui/theme/test/smarthandyhome/HomeLogoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/txznet/comm/ui/theme/test/smarthandyhome/HomeLogoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/txznet/comm/ui/theme/test/winlayout/inner/WinLayoutNone2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/txznet/comm/ui/theme/test/winlayout/inner/WinLayoutNone2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@emulator-5554]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\Resholder\resholder.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProjectId" id="1wIduSjBEL1z1s0hH73H7LMRYd8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Restxz" />
+    <property name="ExportApk.ApkPath" value="C:\Users\lenovo\AndroidStudioProjects\Restxz" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/anim/AnimNoneView.java_SELECTED" value="AnimNoneView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/anim/IImageView.java_SELECTED" value="IImageView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/anim/LogoAnimView.java_SELECTED" value="LogoAnimView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/BgFrameLayout.java_SELECTED" value="BgFrameLayout" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/BgLinearLayout.java_SELECTED" value="BgLinearLayout" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/CircleRectView.java_SELECTED" value="CircleRectView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/EllipsizePrinterTextView.java_SELECTED" value="EllipsizePrinterTextView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/FloatViewRelativeLayout.java_SELECTED" value="FloatViewRelativeLayout" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/PrinterTextView.java_SELECTED" value="PrinterTextView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/PrinterTextViewPro.java_SELECTED" value="PrinterTextViewPro" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/ProgressBarScrollView.java_SELECTED" value="ProgressBarScrollView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/SmartHandyAnimFrameLayout.java_SELECTED" value="SmartHandyAnimFrameLayout" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/TrafficLightCrossView.java_SELECTED" value="TrafficLightCrossView" />
+    <property name="android-custom-viewC:/Users/lenovo/AndroidStudioProjects/Restxz/src/com/txznet/comm/ui/theme/test/widget/WordPoolLayout.java_SELECTED" value="WordPoolLayout" />
+    <property name="android.sdk.path" value="D:/Android Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res/drawable-mdpi" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\AndroidStudioProjects\Restxz\res\drawable-mdpi" />
+      <recent name="C:\Users\lenovo\AndroidStudioProjects\Restxz\res\drawable-nodpi" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="logo" />
+      <command value="find path" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Restxz" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Restxz" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\lenovo\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\lenovo\AndroidStudioProjects\Restxz" />
+          <option name="myCopyRoot" value="C:\Users\lenovo\AndroidStudioProjects\Restxz" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\lenovo\AndroidStudioProjects\Restxz" />
+          <option name="myCopyRoot" value="C:\Users\lenovo\AndroidStudioProjects\Restxz" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afa5c591-5801-42ee-8da7-81b8db5e3512" name="Default Changelist" comment="" />
+      <created>1628150259124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628150259124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="185" y="71" key="#PSD" timestamp="1628151418159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="185" y="71" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1628151418159" />
+    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1628154351563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1628154351563" />
+    <state x="421" y="67" key="FileChooserDialogImpl" timestamp="1628152274282">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="67" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628152274282" />
+    <state width="1237" height="138" key="GridCell.Tab.0.bottom" timestamp="1628216941493">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628216941493" />
+    <state width="1237" height="138" key="GridCell.Tab.0.center" timestamp="1628216941493">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628216941493" />
+    <state width="1237" height="138" key="GridCell.Tab.0.left" timestamp="1628216941493">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628216941493" />
+    <state width="1237" height="138" key="GridCell.Tab.0.right" timestamp="1628216941493">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628216941493" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1628217112753">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1628217112753" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1628216910581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1628216910581" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1628216965270">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1628216965270" />
+  </component>
+</project>

@@ -1,0 +1,3 @@
+C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/release/arm64-v8a/CMakeFiles/txzmarvin.dir
+C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llInit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="温馨提示:需要给定chmod 777 /dev/i2c-? 和 复位节点 权限"
+                android:textColor="#ffff0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                style="@style/LinearLayoutParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请设置i2c路径(格式为/dev/i2c-?):" />
+
+                <EditText
+                    android:id="@+id/etI2cAddr"
+                    style="@style/TextViewParent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+                <!-- android:focusable="true" -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置复位节点:" />
+
+                <EditText
+                    android:id="@+id/etResetAddr"
+                    style="@style/TextViewParent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnInit"
+                style="@style/TextViewParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="初始化模块" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/LinearLayoutParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<Button-->
+                <!--android:id="@+id/btnVersion"-->
+                <!--style="@style/TextViewParent"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="查询fvm版本号" />-->
+
+                <TextView
+                    android:id="@+id/tvVersion"
+                    style="@style/TextViewParent"
+                    android:layout_width="364dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/ibBackInit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@null"
+                    android:src="@drawable/arrow_up"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    style="@style/TextViewParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置输出模式:" />
+
+                <Spinner
+                    android:id="@+id/spI2sMode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:overlapAnchor="false"
+                    android:spinnerMode="dropdown">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <!--<Button-->
+            <!--android:id="@+id/btnI2sMode"-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="设置输出模式" />-->
+
+            <!--<LinearLayout-->
+            <!--style="@style/LinearLayoutParent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="setAngle(设置偏向角,-90~90):" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/etAngle"-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:inputType="number" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--style="@style/LinearLayoutParent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="setWidth(设置拾音区宽度):" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/etWidth"-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:inputType="number" />-->
+            <!--</LinearLayout>-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btnAngleWidth"-->
+            <!--style="@style/TextViewParent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="设置fvm角度" />-->
+
+            <LinearLayout
+                style="@style/LinearLayoutParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sfs固件:" />
+
+                <TextView
+                    android:id="@+id/tvSfs"
+                    style="@style/TextViewParent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:hint="点击选择sfs固件"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bin固件:" />
+
+
+                <TextView
+                    android:id="@+id/tvBin"
+                    style="@style/TextViewParent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:hint="点击选择bin固件"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                style="@style/TextViewParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更新固件" />
+
+            <TextView
+                android:id="@+id/mTvMsg"
+                style="@style/TextViewParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

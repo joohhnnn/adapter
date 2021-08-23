@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 收音机控制 -->
+    <string-array name="RADIO_OPEN">
+        <item>打开收音机</item>
+    </string-array>
+    <string-array name="RADIO_CLOSE">
+        <item>关闭收音机</item>
+    </string-array>
+    <string-array name="RADIO_FM_OPEN">
+        <item>打开调频</item>
+    </string-array>
+    <string-array name="RADIO_AM_OPEN">
+        <item>打开调幅</item>
+    </string-array>
+    <string-array name="RADIO_COLLECTION_OPEN">
+        <item>打开收藏列表</item>
+    </string-array>
+    <string-array name="RADIO_COLLECTION_CLOSE">
+        <item>关闭收藏列表</item>
+    </string-array>
+    <string-array name="RADIO_LIST_OPEN">
+        <item>打开电台列表</item>
+    </string-array>
+    <string-array name="RADIO_LIST_CLOSE">
+        <item>关闭电台列表</item>
+    </string-array>
+    <string-array name="RADIO_NEXT">
+        <item>下一台</item>
+        <item>向下搜索电台</item>
+    </string-array>
+    <string-array name="RADIO_CHANGE">
+        <item>换个电台</item>
+    </string-array>
+    <string-array name="RADIO_PRE">
+        <item>上一台</item>
+        <item>向上搜索电台</item>
+    </string-array>
+    <string-array name="RADIO_COLLECTION_ADD">
+        <item>收藏电台</item>
+    </string-array>
+    <!-- 视频控制 -->
+    <string-array name="VIDEO_OPEN_USB">
+        <item>打开USB视频</item>
+        <item>开启USB视频</item>
+    </string-array>
+    <string-array name="VIDEO_CLOSE_USB">
+        <item>关闭USB视频</item>
+        <item>关掉USB视频</item>
+    </string-array>
+    <string-array name="VIDEO_OPEN_LOCAL">
+        <item>打开本地视频</item>
+        <item>开启本地视频</item>
+    </string-array>
+    <string-array name="VIDEO_CLOSE_LOCAL">
+        <item>关闭本地视频</item>
+        <item>关掉本地视频</item>
+    </string-array>
+	<!-- 图片控制 -->
+    <string-array name="PICTURE_USB">
+        <item>查看USB图片</item>
+        <item>打开USB图片</item>
+    </string-array>
+    <string-array name="PICTURE_LOCAL">
+       <item>查看本地图片</item>
+        <item>打开本地图片</item>
+    </string-array>
+    <string-array name="PICTURE_NEXT">
+        <item>下一张</item>
+        <item>下一张图片</item>
+        <item>切换下一张</item>
+        <item>切换下一张图片</item>
+    </string-array>
+    <string-array name="PICTURE_PRE">
+        <item>上一张</item>
+        <item>上一张图片</item>
+        <item>切换上一张</item>
+        <item>切换上一张图片</item>
+    </string-array>
+</resources>

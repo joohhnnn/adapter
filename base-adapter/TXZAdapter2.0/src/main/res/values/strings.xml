@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">同行者语音功能</string>
+
+
+    <string-array name="plantes">
+        <item>正常工作模式_ZVS2</item>
+        <item>输出MIC信号_ZMP6</item>
+        <item>输出参考信号_ZSH2</item>
+    </string-array>
+
+    <string name="today_weather">今天的天气</string>
+    <string name="new_movie">最新的电影</string>
+    <string name="tencent_share">腾讯的股票</string>
+    <string name="go_to_world_window">我要去世界之窗</string>
+    <string name="open_help">打开帮助</string>
+    <string name="joke">讲个笑话</string>
+    <string name="make_meat">红烧肉怎么做</string>
+
+
+    <array name="menu_array">
+        <item>activity;com.txznet.adapter.ui.BottomNavActivity;BottomNav</item>
+        <item>fragment;com.txznet.adapter.ui.fragment.VoiceFragment;Voice</item>
+        <item>fragment;com.txznet.adapter.ui.fragment.FVMFragment;FVM</item>
+        <item>fragment;com.txznet.adapter.ui.fragment.FMFragment;FM1388</item>
+        <item>fragment;com.txznet.adapter.ui.fragment.ListFragment;List</item>
+    </array>
+
+    <array name="list_array">
+        <item>activity;com.txznet.adapter.ui.BottomNavActivity;BottomNav</item>
+    </array>
+
+
+</resources>

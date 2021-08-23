@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.txznet.adapter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".AdpApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data android:name="buildType" android:value="${buildType}">
+
+        </meta-data>
+
+        <!-- =================================================================================== -->
+        <!-- =====                            注册Activity                                  ===== -->
+        <!-- =================================================================================== -->
+
+        <!-- 主界面 -->
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.BottomNavActivity" />
+        <activity
+            android:name=".ui.DrawerActivity"
+            android:theme="@style/DrawerTheme" />
+        <activity android:name=".ui.ListActivity" />
+        <!-- 测试界面 -->
+        <activity android:name=".ui.TestActivity" />
+        <!-- FM1388调试页面 -->
+        <activity android:name=".ui.DebugActivityFM1388" />
+        <!-- FMV调试页面 -->
+        <activity android:name=".ui.DebugActivityFVM" />
+        <activity android:name=".ui.FVMUpdateActivity" />
+
+        <!-- =================================================================================== -->
+        <!-- =====                            注册广播                                      ===== -->
+        <!-- =================================================================================== -->
+
+        <!-- 适配广播 -->
+        <receiver
+            android:name=".conn.receiver.CenterBroadcastReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <!-- 适配接收的广播 -->
+                <action android:name="com.txznet.adapter.recv" />
+                <!-- 开机广播 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 语音界面开 -->
+                <action android:name="com.txznet.txz.record.show" />
+                <!-- 语音界面关 -->
+                <action android:name="com.txznet.txz.record.dismiss" />
+            </intent-filter>
+        </receiver>
+
+        <!-- =================================================================================== -->
+        <!-- =====                            注册Service                                  ===== -->
+        <!-- =================================================================================== -->
+
+        <!--同行者Service：必备-->
+        <service
+            android:name="com.txznet.sdk.TXZService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <!-- {项目包名}.service.TXZService -->
+                <action android:name="com.txznet.adapter.service.TXZService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!-- 与外部AIDL -->
+        <service
+            android:name=".conn.service.TXZAdpService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.txznet.adapter.StartService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

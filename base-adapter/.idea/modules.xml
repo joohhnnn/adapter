@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/base-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Resholder3.0/base-adapter.Resholder3.0.iml" filepath="$PROJECT_DIR$/.idea/modules/Resholder3.0/base-adapter.Resholder3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restxz/base-adapter.Restxz.iml" filepath="$PROJECT_DIR$/.idea/modules/Restxz/base-adapter.Restxz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TXZAdapter2.0/base-adapter.TXZAdapter2.0.iml" filepath="$PROJECT_DIR$/.idea/modules/TXZAdapter2.0/base-adapter.TXZAdapter2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TXZAdapterAIDL/base-adapter.TXZAdapterAIDL.iml" filepath="$PROJECT_DIR$/.idea/modules/TXZAdapterAIDL/base-adapter.TXZAdapterAIDL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app3/base-adapter.app3.iml" filepath="$PROJECT_DIR$/.idea/modules/app3/base-adapter.app3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appc/base-adapter.appc.iml" filepath="$PROJECT_DIR$/.idea/modules/appc/base-adapter.appc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/call/base-adapter.calltest.iml" filepath="$PROJECT_DIR$/.idea/modules/call/base-adapter.calltest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/week2/base-adapter.week2.iml" filepath="$PROJECT_DIR$/.idea/modules/week2/base-adapter.week2.iml" />
+    </modules>
+  </component>
+</project>

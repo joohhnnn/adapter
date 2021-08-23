@@ -1,0 +1,125 @@
+{
+  "stringTable": {
+    "0": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "D:\\sdk\\ndk\\23.0.7530507\\build\\cmake\\platforms.cmake",
+    "D:\\sdk\\ndk\\23.0.7530507\\build\\cmake\\android.toolchain.cmake",
+    "D:\\sdk\\ndk\\23.0.7530507\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\sdk\\ndk\\23.0.7530507\\build\\cmake\\compiler_id.cmake",
+    "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "txzmarvin-Debug-x86": {
+      "buildCommand": "D:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\x86\" txzmarvin",
+      "buildType": "debug",
+      "toolchain": "3752486936",
+      "abi": "x86",
+      "artifactName": "txzmarvin",
+      "files": [
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\main\\DeviceManager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\cxdish.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\CxFlash.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\host_depend.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\fm_fm1388.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfm1388\\libfm1388.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\fm_wav.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\libfmrec.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\main\\DeviceManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\fm_fm1388.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfm1388\\errorcode.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfm1388\\libfm1388.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\fm_wav.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\libfmrec.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\command.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\CxFlash.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\getcxFlash.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\debug\\obj\\x86\\libtxzmarvin.so"
+    }
+  },
+  "toolchains": {
+    "3752486936": {
+      "cCompilerExecutable": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

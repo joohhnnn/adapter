@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Aug 06 10:44:31 CST 2021
+1.base=C\:\\Users\\lenovo\\AndroidStudioProjects\\Restxz\\build\\intermediates\\assets\\release
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\lenovo\\AndroidStudioProjects\\Restxz\\build\\intermediates\\transforms\\dexMerger\\release\\0
+1.path=skin_cfg.json

@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter",
+      "sdkFolder": "D:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates",
+      "gradleModulePathName": ":TXZAdapter2.0",
+      "moduleRootFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0",
+      "makeFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\.cxx",
+      "cxxFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx",
+      "ndkFolder": "D:\\sdk\\ndk\\23.0.7530507",
+      "ndkVersion": "23.0.7530507-rc6",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64",
+  "jsonFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64",
+  "objFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\release\\obj\\x86_64",
+  "buildCommandFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cxx\\release\\x86_64\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\x86_64\\compile_commands.json"
+}

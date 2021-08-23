@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\lenovo\AndroidStudioProjects\Restxz\assets"><file name="skin_cfg.json" path="C:\Users\lenovo\AndroidStudioProjects\Restxz\assets\skin_cfg.json"/></source><source path="C:\Users\lenovo\AndroidStudioProjects\Restxz\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\lenovo\AndroidStudioProjects\Restxz\src\release\assets"/></dataSet></merger>

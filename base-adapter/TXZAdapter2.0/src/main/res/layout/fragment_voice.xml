@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSendAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发消息给所有人" />
+
+    <Button
+        android:id="@+id/btnTrigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发语音界面" />
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/today_weather" />
+
+    <Button
+        android:id="@+id/btnMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_movie" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tencent_share" />
+
+    <Button
+        android:id="@+id/btnNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_world_window" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_help" />
+
+    <Button
+        android:id="@+id/btnJoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joke" />
+
+    <Button
+        android:id="@+id/btnMakeMeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_meat" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etRecognize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入识别文字" />
+
+        <Button
+            android:id="@+id/btnRecognize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="识别" />
+
+    </LinearLayout>
+
+</LinearLayout>

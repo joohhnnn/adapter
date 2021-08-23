@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "txzmarvin-Debug-arm64-v8a": {
+      "artifactName": "txzmarvin",
+      "buildCommand": "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\arm64-v8a --target txzmarvin",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libtxzmarvin.so"
+    }
+  }
+}

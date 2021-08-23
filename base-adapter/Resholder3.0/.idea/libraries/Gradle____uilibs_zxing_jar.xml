@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./uilibs/zxing.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/uilibs/zxing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

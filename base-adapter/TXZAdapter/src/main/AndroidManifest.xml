@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.txznet.adapter">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+
+    <application
+        android:name="com.txznet.adapter.AdpApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="同行者适配程序"
+        android:theme="@android:style/Theme.NoTitleBar"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.txznet.adapter.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 同行者Service：必备 -->
+        <service
+            android:name="com.txznet.sdk.TXZService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <!-- {项目包名}.service.TXZService -->
+                <action android:name="com.txznet.adapter.conn.service.TXZService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!-- 同行者Service：开机监听 -->
+
+        <service
+            android:name="com.txznet.adapter.conn.service.BootService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.txznet.adapter.BootService" />
+            </intent-filter>
+        </service>
+        <!-- =================================================================================== -->
+        <!-- 同行者Receiver：开机启动监控 -->
+        <receiver android:name="com.txznet.adapter.reveiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 同行者Receiver：所有广播分发 -->
+        <receiver
+            android:name="com.txznet.adapter.reveiver.SysReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <!-- 语音界面开 -->
+                <action android:name="com.txznet.txz.record.show" />
+                <!-- 语音界面关 -->
+                <action android:name="com.txznet.txz.record.dismiss" />
+                <!-- 所有发给同行者的广播 -->
+                <action android:name="com.txznet.adapter.recv" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

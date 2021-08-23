@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "txzmarvin-Release-armeabi-v7a": {
+      "artifactName": "txzmarvin",
+      "buildCommand": "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\release\\armeabi-v7a --target txzmarvin",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libtxzmarvin.so"
+    }
+  }
+}

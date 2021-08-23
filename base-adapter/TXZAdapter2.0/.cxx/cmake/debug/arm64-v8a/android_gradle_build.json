@@ -1,0 +1,90 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"txzmarvin-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "txzmarvin",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\.cxx\\cmake\\debug\\arm64-v8a --target txzmarvin",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/main/DeviceManager.cpp",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fm_1388/fm_fm1388.c",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fm_1388/libfm1388/libfm1388.c",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fm_1388/libfmrec_1388/fm_wav.c",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fm_1388/libfmrec_1388/libfmrec.c",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fvm/cxdish.cpp",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fvm/CxFlash.cpp",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/fvm/host_depend.cpp",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/build/intermediates/cmake/debug/obj/arm64-v8a/libtxzmarvin.so",
+			"toolchain" : "2963077917"
+		}
+	},
+	"toolchains" : 
+	{
+		"2963077917" : 
+		{
+			"cCompilerExecutable" : "D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

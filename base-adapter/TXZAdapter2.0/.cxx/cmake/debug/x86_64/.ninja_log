@@ -1,0 +1,21 @@
+# ninja log v5
+26	154	0	CMakeFiles/txzmarvin.dir/fm_1388/libfmrec_1388/fm_wav.c.o	91f4af3dda0eb33a
+8	211	0	CMakeFiles/txzmarvin.dir/fm_1388/fm_fm1388.c.o	7f6040a1e6c201ca
+2	219	0	CMakeFiles/txzmarvin.dir/fm_1388/libfm1388/libfm1388.c.o	9c0b7aef9015ca55
+31	243	0	CMakeFiles/txzmarvin.dir/fm_1388/libfmrec_1388/libfmrec.c.o	3ab7c7305ff05a1
+17	279	0	CMakeFiles/txzmarvin.dir/main/DeviceManager.cpp.o	7810a13ec41c9e01
+37	328	0	CMakeFiles/txzmarvin.dir/fvm/host_depend.cpp.o	39069467e32f27ab
+12	342	0	CMakeFiles/txzmarvin.dir/fvm/cxdish.cpp.o	f47a108a1494ab5f
+21	381	0	CMakeFiles/txzmarvin.dir/fvm/CxFlash.cpp.o	98ecf9cc605363fe
+43	600	0	CMakeFiles/txzmarvin.dir/native-lib.cpp.o	b48f32e8fcd2e9c1
+600	729	0	C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/build/intermediates/cmake/debug/obj/x86_64/libtxzmarvin.so	ab71ffde7a9ca18
+32	205	0	CMakeFiles/txzmarvin.dir/fm_1388/libfmrec_1388/fm_wav.c.o	91f4af3dda0eb33a
+26	250	0	CMakeFiles/txzmarvin.dir/fm_1388/fm_fm1388.c.o	7f6040a1e6c201ca
+20	262	0	CMakeFiles/txzmarvin.dir/fm_1388/libfm1388/libfm1388.c.o	9c0b7aef9015ca55
+38	281	0	CMakeFiles/txzmarvin.dir/fm_1388/libfmrec_1388/libfmrec.c.o	3ab7c7305ff05a1
+15	340	0	CMakeFiles/txzmarvin.dir/main/DeviceManager.cpp.o	7810a13ec41c9e01
+45	374	0	CMakeFiles/txzmarvin.dir/fvm/host_depend.cpp.o	39069467e32f27ab
+4	395	0	CMakeFiles/txzmarvin.dir/fvm/cxdish.cpp.o	f47a108a1494ab5f
+11	420	0	CMakeFiles/txzmarvin.dir/fvm/CxFlash.cpp.o	98ecf9cc605363fe
+52	658	0	CMakeFiles/txzmarvin.dir/native-lib.cpp.o	b48f32e8fcd2e9c1
+658	769	0	C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/build/intermediates/cmake/debug/obj/x86_64/libtxzmarvin.so	ab71ffde7a9ca18

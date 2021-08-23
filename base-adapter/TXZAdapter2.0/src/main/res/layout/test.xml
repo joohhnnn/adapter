@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="setDirectWidth偏向角" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="setDirectAngle拾音角" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="getAngleAndProb" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="查看适配版本号" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="查看适配信息" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="查看Core版本号" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="查看Core信息" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="110dp"
+            android:layout_height="59dp"
+            android:hint="editTest1" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:hint="editTest2" />
+    </LinearLayout>
+
+</LinearLayout>

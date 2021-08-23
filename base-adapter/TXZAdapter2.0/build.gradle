@@ -1,0 +1,158 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'com.android.application'
+
+def getVersionCode() {// 获取版本号
+    def versionFile = file('version.properties')// 读取第一步新建的文件
+    if (versionFile.canRead()) {// 判断文件读取异常
+        Properties versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionFile))
+        def versionCode = versionProps['VERSION_CODE'].toInteger()// 读取文件里面的版本号
+        def runTasks = gradle.startParameter.taskNames
+        if (runTasks.toString().contains('assembleRelease')) {//仅在assembleRelease任务是增加版本号,其他渠道包在此分别配置
+            // 版本号自增之后再写入文件（此处是关键，版本号自增+1）
+            versionProps['VERSION_CODE'] = (++versionCode).toString()
+            versionProps.store(versionFile.newWriter(), null)
+        }
+        return versionCode // 返回自增之后的版本号
+    } else {
+        throw new GradleException("Could not find version.properties!")
+    }
+}
+
+android {
+    compileSdkVersion 27
+
+    def currentVersionCode = getVersionCode()
+    def currentVersionName = currentTimeSimple() + '-' + currentVersionCode
+
+    defaultConfig {
+        applicationId "com.txznet.adapter"
+        minSdkVersion 14
+        //noinspection ExpiringTargetSdkVersion
+        targetSdkVersion 19
+        versionCode currentVersionCode
+        versionName currentVersionName
+        flavorDimensions "versionCode"
+        externalNativeBuild {
+            cmake {
+                abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+                cppFlags ""
+            }
+        }
+    }
+    signingConfigs {
+        release {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('./signature/txz.keystore')
+            storePassword 'android'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [buildType: "release"]
+            signingConfig signingConfigs.release
+
+        }
+        debug{
+            manifestPlaceholders = [buildType: "debug"]
+        }
+
+    }
+    // NDK Cmake配置
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+
+    // 修改输出文件路径
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            //:moduleName ，替换掉:app
+            String filePath = project.path.replace(":TXZAdapter2.0", "../release/apk/")
+            String name = outputFileName.toString().replace("release", versionName + "-release")
+            outputFileName = new File(filePath, name)
+        }
+    }
+
+    // 自定义一个更换apk路径的任务
+    /*task releaseApk(type: Copy) {
+        // delete '../release/apk/'
+        from('build/outputs/apk/release/')
+        exclude('output.json')
+        into('../release/apk/')
+        // 测试改个名字
+        rename('TXZAdapter-release-unsigned-' + currentVersionName,'TXZAdapter-Release-' + currentVersionName)
+    }*/
+
+    // 将自定义任务跟到系统任务后
+    //releaseApk.dependsOn(build)
+
+    // 关闭检查
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    // 配置代码目录
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            java.srcDirs = ['src/main/java']
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
+    /**
+     * 编译配置
+     */
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+/**
+ * 获取PC用户名
+ * @return 用户名String
+ */
+static def currentUserName() {
+    return System.getenv().get("USERNAME")
+}
+
+/**
+ * 系统时间
+ * @return 时间String
+ */
+static def currentTime() {
+    return new SimpleDateFormat("yyyyMMdd-HHmmss").format(new Date())
+}
+
+/**
+ * 系统时间
+ * @return 时间String
+ */
+static def currentTimeSimple() {
+    return new SimpleDateFormat("yyMMdd").format(new Date())
+}
+
+/**
+ * 前缀
+ * @return 适配前缀
+ */
+static def getApplicationFirstName() {
+    return "TXZAdapter"
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation files('libs/TXZ_SDK.jar')
+    implementation project(':TXZAdapterAIDL')
+    implementation files('libs/TXZDebugReceiver.jar')
+}

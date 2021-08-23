@@ -1,0 +1,55 @@
+[
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\txzmarvin.dir\\main\\DeviceManager.cpp.o -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\main\\DeviceManager.cpp",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\main\\DeviceManager.cpp"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\txzmarvin.dir\\fm_1388\\fm_fm1388.c.o   -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\fm_fm1388.c",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\fm_fm1388.c"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\txzmarvin.dir\\fm_1388\\libfm1388\\libfm1388.c.o   -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfm1388\\libfm1388.c",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfm1388\\libfm1388.c"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\txzmarvin.dir\\fm_1388\\libfmrec_1388\\fm_wav.c.o   -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\fm_wav.c",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\fm_wav.c"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\txzmarvin.dir\\fm_1388\\libfmrec_1388\\libfmrec.c.o   -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\libfmrec.c",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fm_1388\\libfmrec_1388\\libfmrec.c"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\txzmarvin.dir\\fvm\\cxdish.cpp.o -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\cxdish.cpp",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\cxdish.cpp"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\txzmarvin.dir\\fvm\\CxFlash.cpp.o -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\CxFlash.cpp",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\CxFlash.cpp"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\txzmarvin.dir\\fvm\\host_depend.cpp.o -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\host_depend.cpp",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\fvm\\host_depend.cpp"
+},
+
+{
+  "directory": "C:/Users/lenovo/AndroidStudioProjects/base-adapter/TXZAdapter2.0/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\23.0.7530507\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk/23.0.7530507/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtxzmarvin_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\txzmarvin.dir\\native-lib.cpp.o -c C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\Users\\lenovo\\AndroidStudioProjects\\base-adapter\\TXZAdapter2.0\\src\\main\\cpp\\native-lib.cpp"
+}
+]

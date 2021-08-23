@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+android {
+    signingConfigs {
+        release {
+            storeFile file('E:\\code\\base-adapter\\TXZAdapter2.0\\signature\\txz.keystore')
+            storePassword 'android'
+            keyAlias = 'key.'
+            keyPassword 'android'
+        }
+    }
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 14
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 19
+        versionCode 7
+        versionName "1.2.5"
+    }
+
+    project.preBuild.doFirst{
+
+    }
+
+    task makeJar(type: Copy) {
+        // delete '../release/jar/'
+        from('build/intermediates/intermediate-jars/release/')
+        into('../release/jar/')
+        exclude('test/', 'BuildConfig.class', 'R.class','res.jar','jni/')
+        rename('classes.jar', 'TXZAIDL.jar')
+    }
+
+    makeJar.dependsOn(build)
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/aidl']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+}
+dependencies {
+}
